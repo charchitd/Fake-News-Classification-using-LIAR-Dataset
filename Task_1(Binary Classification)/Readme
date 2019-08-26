@@ -1,12 +1,12 @@
 
-### Task 1 - Binary Classification
+## Task 1 - Binary Classification
 
-*It is the task of classifying the elements of a given set into two groups (predicting
+It is the task of classifying the elements of a given set into two groups (predicting
 which group each one belongs to) on the basis of a classification rule.) There are many
 classifiers algorithms to use for the different number of predictions, but here we use Random
 Forest. and another one is being used is LSTM Classification Keras.
 
-####Random Forest:
+#### Random Forest:
 Random Forest Classifier is ensemble algorithm. In next one or two
 posts we shall explore such algorithms. Ensembled algorithms are those which combines
 more than one algorithms of same or different kind for classifying objects. For example,
@@ -16,7 +16,7 @@ consideration of class for test object.
   • Here by using Bags of word Technique we are achieving the Accuracy: 63%
 
 
-####LSTM Classification Keras:
+### LSTM Classification Keras:
 How it Work: A sequence is a set of values where each value corresponds to an observation
 at a specific point in time. Sequence prediction involves using historical sequential data
 to predict the next value or values. Machine learning models that successfully deal with
