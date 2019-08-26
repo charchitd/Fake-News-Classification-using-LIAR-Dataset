@@ -6,14 +6,14 @@ which group each one belongs to) on the basis of a classification rule.) There a
 classifiers algorithms to use for the different number of predictions, but here we use Random
 Forest. and another one is being used is LSTM Classification Keras.
 
-#### Random Forest:
+### Random Forest:
 Random Forest Classifier is ensemble algorithm. In next one or two
 posts we shall explore such algorithms. Ensembled algorithms are those which combines
 more than one algorithms of same or different kind for classifying objects. For example,
 running prediction over Naive Bayes, SVM and Decision Tree and then taking vote for final
 consideration of class for test object.
 
-  • Here by using Bags of word Technique we are achieving the Accuracy: 63%
+  * • Here by using Bags of word Technique we are achieving the Accuracy: 63%
 
 
 ### LSTM Classification Keras:
@@ -29,4 +29,5 @@ dimension is constant over time.
 After one fed all inputs xi into the RNN, the last output, ht, is supposed to carry
 information about the whole sentence. This is theoretically true, but it shows weakness for
 long sequences. Thatˆas what LSTMs tries to solve.
-  • Here by using RNN we are achieving the Accuracy: 58%
+       
+ * • Here by using RNN we are achieving the Accuracy: 58%
